@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 1080px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#left_box {
+    border: solid;
+    width: 250px;
+    border-width: 1px;
+    border-right-color: #545454;
+    background-color: #545454;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#profilepic {
+    border-radius: 100px;
+    width: 150px;
+    height: 180px;
+    margin: 30px 50px;
+    justify-content: center;
+}
+
+.left_text {
+    width: 200px;
+    color: #d3d3d3;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+}
+.links img {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+}
+.links p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#portfolio {
+    margin-top: -30px;
+}
+
+#portfolio p {
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+#right_box {
+    border: solid;
+    width: 460px;
+    border-width: 1px;
+    border-left-color: #545454;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
+    flex-direction: row;
+
+    background: rgb(84,84,84);
+    background: linear-gradient(90deg, rgba(84,84,84,1) 0%, rgba(255,255,255,1) 10%);
+
+    color: #343434;
+}
+
+#header {
+    padding: 40px 0 10px 20px;
+}
+#header p {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: -20px;
+}
+
+.card {
+    padding: 0 15px 0 20px;
+    margin-top: -10px;
+    border-width: 1px;
+}
+.card h3 {
+    border-bottom: solid;
+    border-width: 2px;
+}
+
+.edu div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+.edu h6 {
+    margin-right: 10px;
+    font-weight: normal;
+    font-style: italic;
+    min-width: 70px;
+    display: flex;
+    justify-content: end;
+}
+.edu p {
+    margin-top: -20px;
+    font-size: 14px;
+    font-style: italic;
+}
+.pro {
+    display: flex;
+    font-size: 14px;
+}
+.pro h5 {
+    width: 100px;
+    align-items: flex-start;
+    margin-top: -15px;
+}
+.pro p {
+    width: 300px;
+    font-size: 12px;
+    margin-top: -15px;
+}
+.exp div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+.exp h6 {
+    margin-right: 10px;
+    font-weight: normal;
+    font-style: italic;
+    min-width: 70px;
+    display: flex;
+    justify-content: end;
+}
+.exp p {
+    margin-top: -20px;
+    font-size: 14px;
+    font-style: italic;
+}
+.exp ul {
+    margin-top: -10px;
+    margin-left: -35px;
+    font-size: 12px;
+}
+
